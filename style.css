@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300;400&display=swap');
+
+:root{
+  --primary-color:#0126f7;
+  --secondary-color: rgb(0, 195, 255);
+  --tertiary-color: #ff0909;
+}
+
+body{
+  background-color: #009908;
+  font-size: 15px;
+  font-family: Lato, sans-serif;
+}
+#container{
+  /* padding: 5px; */
+  height: 500px;
+  width: 350px;
+  margin: 90px auto;
+  background: white;
+  box-shadow: 3px 3px 3px #0c0c0c94;
+  border-radius: 15px;
+}
+.title{
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 17px;
+  /* border-radius: 15px; */
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bolder;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  text-align: center;
+}
+.tipsForm{
+  padding-left: 17px;
+  padding-right: 17px;
+}
+.inputForm{
+  background-color: white;
+  width: 40px;
+  padding: 4px 4px 7px 7px;
+}
+.inputForm:focus{
+  border: 3px solid var(--secondary-color);
+  outline: none;
+}
+.inputSelect{
+  width: 170px;
+  padding: 5px;
+  font-size: 13px;
+  outline: none;
+}
+.formSubmit{
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background: var(--primary-color);
+  border-radius: 4px;
+  width: 200px;
+  height: 47px;
+  font-size: 18px;
+  color: white;
+}
+.formSubmit:hover{
+  background-color: var(--secondary-color);
+}

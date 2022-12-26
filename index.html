@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Calculador de gorjetas</title>
+</head>
+
+<body>
+  <div id="container">
+    <div>
+      <h1 class="title">Calculadora</h1>
+    </div>
+    <div>
+      <form class="tipsForm">
+        <label for="bill">
+          <p>Quanto foi a conta?</p>
+        </label>
+        <p>
+          ECV$ <input type="number" placeholder="00.0" name="bill" id="bill" class="inputForm">
+        </p>
+        <label for="serviceQuality">
+          <p>
+            Como foi o seu serviço?
+          </p>
+        </label>
+        <p>
+          <select name="serviceQuality" id="serviceQuality" class="inputSelect">
+            <option disable selected> ...seleciona a opçao</option>
+            <option value="0.3">30% - Excelente</option>
+            <option value="0.2">20% - Bom</option>
+            <option value="0.15">15% - Aceitavel</option>
+            <option value="0.1">10% - Ruim</option>
+            <option value="0.05">0.5% - Pessimo</option>
+          </select>
+        </p>
+        <label for="people">
+          <p>
+            Quantas pessoas na mesa?
+          </p>
+        </label>
+        <p>
+          <input type="number" placeholder="1" name="people" id="people" class="inputForm"> Pessoa(s)
+        </p>
+        <button type="submit" class="formSubmit">Calcular</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
