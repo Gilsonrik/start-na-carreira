@@ -15,12 +15,12 @@
       <h1 class="title">Calculadora</h1>
     </div>
     <div>
-      <form class="tipsForm">
+      <form class="tipsForm" id="tipsForm">
         <label for="bill">
           <p>Quanto foi a conta?</p>
         </label>
         <p>
-          ECV$ <input type="number" placeholder="00.0" name="bill" id="bill" class="inputForm">
+          ECV$ <input type="number" placeholder="00.0" name="bill" id="bill" class="inputForm" required>
         </p>
         <label for="serviceQuality">
           <p>
@@ -43,12 +43,18 @@
           </p>
         </label>
         <p>
-          <input type="number" placeholder="1" name="people" id="people" class="inputForm"> Pessoa(s)
+          <input type="number" placeholder="1" name="people" id="people" class="inputForm" required> Pessoa(s)
         </p>
         <button type="submit" class="formSubmit">Calcular</button>
       </form>
     </div>
+    <div id="totalTip">
+      Gorjeta total:
+      ECV$ <span id="tips">0.00</span>
+      <span id="each">Cada</span>
+    </div>
   </div>
+  <script type="text/javascript" src="scripts.js"></script>
 </body>
 
 </html>

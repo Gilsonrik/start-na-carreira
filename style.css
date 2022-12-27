@@ -66,3 +66,8 @@ body{
 .formSubmit:hover{
   background-color: var(--secondary-color);
 }
+#totalTip{
+  font-size: 20px;
+  margin-top: 5px;
+  text-align: center;
+}
